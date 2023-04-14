@@ -41,7 +41,25 @@
     }
 
     /*Add your media queries CSS below here */
-
+    
+    @media only screen and (max-width: 796px) {
+        .row {
+            flex-direction: column;
+        }
+        
+        .row div {
+            flex-basis: 50px;
+        }
+        
+        .image-full {
+            display: none;
+        }
+        
+        .image-mobile {
+            display: block;
+        }
+    }
+    
     
 </style>
 
